@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Failed - Project 4</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        body {
+			background-color: whitesmoke;
+        }
+        .container
+        {
+			font-family: Arial, sans-serif;
+            max-width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+          	background-color: white;
+        }
+        .error-icon {
+            color: #d9534f;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .error-message {
+            color: #d9534f;
+            margin-bottom: 20px;
+        }
+        .login-again {
+            display: block;
+            width: 93%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .login-again:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+	<div class ="container">
+	    <div class="error-icon">⚠️</div>
+	    <h2>Login Failed</h2>
+	    <p class="error-message">Invalid username or password. Please try again.</p>
+	    <a href="static/login.html" class="login-again">Return to Login</a>
+    </div>
+</body>
+</html>
